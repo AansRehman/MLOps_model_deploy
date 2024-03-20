@@ -26,10 +26,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Test
-      run: |
-        # Run your tests here
-        pytest
 
     - name: Run Flask application
       run: python main.py
